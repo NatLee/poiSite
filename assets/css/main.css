@@ -3090,7 +3090,9 @@
 				background: #fff;
 				color: #666 !important;
 			}
-
+			
+			
+			
 /* Main */
 
 	#main {
@@ -3273,6 +3275,7 @@
 				background-attachment: scroll;
 			}
 
+
 				#banner h2 {
 					font-size: 3.5em;
 				}
@@ -3288,6 +3291,9 @@
 			body, input, select, textarea {
 				font-size: 11pt;
 			}
+			
+		/* Banner */
+
 
 	}
 
@@ -3359,7 +3365,8 @@
 			}
 
 		/* Banner */
-
+		
+		
 		/* Off-Canvas Navigation */
 
 			#page-wrapper {
@@ -3603,6 +3610,9 @@
 			#banner {
 				padding: 4em 0;
 			}
+				#banner img{
+					width: 100%;
+				}
 
 				#banner h2 {
 					font-size: 2.25em;
@@ -3757,5 +3767,12 @@
 			#cta {
 				padding: 2.5em 1em 3em 1em;
 			}
-
+			
+			
 	}
+	
+	
+	
+	
+	
+	
