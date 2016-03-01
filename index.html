@@ -36,7 +36,10 @@
 									</li>
 								</ul>
 							</li>
-							<li><a href="POI.mp3" class="button" return false>POI</a></li>
+							<li>
+								<span id=poispan></span>
+								<input type="button" value="Play POI" onClick="DHTMLSound('POI.mp3')">
+							</li>
 						</ul>
 					</nav>
 				</header>
@@ -162,6 +165,14 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script>
+				function DHTMLSound(surl) {
+					document.getElementById("poispan").innerHTML =
+					"<embed src='" + surl + "' hidden=true autostart=true loop=false>";
+				}
+			</script>
+			
+			
 			
 			
 	</body>
